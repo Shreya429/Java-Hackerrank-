@@ -6,7 +6,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double d = scan.nextDouble();
-       
+        scan.nextLine();    // to clear the buffer we include this
         String s = scan.nextLine();
         scan.close();
 
